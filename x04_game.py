@@ -12,3 +12,28 @@ from x03_winner import *
 if __name__ == "__main__":
   pass
 
+x = playerChoice()
+y = computerChoice()
+z = playerWins(y,x)
+
+if x == 0:
+  if y == 0:
+    print("tie")
+  elif y == 1:
+    print("win")
+  elif y ==2:
+    print("ssss")
+elif x == 1:
+  if y == 0:
+    print("win")
+  elif y == 1:
+    print("tie")
+  elif y == 2:
+    print("loss")
+elif x == 2:
+  if y == 0:
+    print("loss")
+  elif y== 1:
+    print("win")
+  elif y == 2:
+    print("tie")

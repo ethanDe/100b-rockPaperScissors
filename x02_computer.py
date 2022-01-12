@@ -8,12 +8,10 @@ output:
 1 : paper
 2 : scissors
 """
+import random as r
 
 def computerChoice():
-  
-  
-  
-  
+  value = r.randint(0,2)
   return value
 
 
